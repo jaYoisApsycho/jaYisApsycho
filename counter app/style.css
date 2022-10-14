@@ -1,0 +1,125 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: cursive;
+}
+
+body{
+    background: white
+    /* width: 70%; */
+}
+
+.rest{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    /* margin-left: 500px;
+    margin-right: 500px; */
+    /* margin: auto; */
+    height: 70vh;
+    width: 30vw;
+}
+
+
+h1{
+    padding-top: 80px;
+}
+h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+
+button{
+    display: grid;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    /* text-align: center; */
+    background-color: red;
+    margin-right: 10px;
+    margin: auto;
+        margin-bottom: 10px;
+        width: 200px;
+}
+
+#save-btn{
+    background-color: orange;
+    margin-right: 10px;
+    margin: auto;
+        margin-bottom: 10px;
+        width: 200px;
+}
+
+#decrement-btn{
+    background-color: green;
+    width: 200px;
+}
+
+#reset-el{
+    background-color: blue;
+    width: 200px;
+}
+
+#save-el{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* #rest p #save-el{
+    font-size: 25px;
+} */
+
+@media  (max-width:1024px) {
+    .rest{
+        width: 80%;
+        min-height: 455px;
+    }
+
+    h1{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    h2{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    button{
+        display: grid;
+        /* grid-column: auto; */
+        grid-template-columns: auto;
+    }
+
+    #increment-btn{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #save-btn{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #save-el{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
